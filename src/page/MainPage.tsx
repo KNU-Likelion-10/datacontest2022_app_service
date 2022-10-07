@@ -2,14 +2,13 @@ import BottomBox from '@component/BottomBox';
 import MidBox from 'component/MidBox';
 import TopBar from 'component/TopBar';
 import React from 'react';
+import { Text, View } from 'react-native';
 
 function MainPage() {
     return (
-        <>
-            <TopBar />
-            <MidBox />
-            <BottomBox />
-        </>
+        <View>
+            <Text>Hello</Text>
+        </View>
     );
 }
 
